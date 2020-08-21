@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('BuildStage') {
+    stage('Build_Stage') {
       steps {
         build(job: 'Build_Automation', propagate: true)
       }
